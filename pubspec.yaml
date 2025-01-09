@@ -84,6 +84,14 @@ flutter:
     - assets/user9.jpg
     - lib/assets/data/datamessage.json
     - lib/assets/data/datauser.json
+    - assets/tugas1.png
+    - assets/tugas2.png
+    - assets/tugas3.png
+    - assets/tugas4.png
+    - assets/tugas5.png
+    - assets/tugas6.png
+    - assets/tugas7.png
+    - assets/tugas8.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
