@@ -32,3 +32,20 @@ ini adalah gambar jika tidak ada data yang dimasukkan
 
 pastikan data yang diisi sudah benar dan anda akan diarahkan ke dashboard screen
 
+# Screen 4
+![screenshoot uas-2024-2d-celvinalfiansyah](assets/tugas5.png)
+
+ini ialah dashboard screen jika dipencet tombol message pada dibawah maka akan diarahkan ke halaman message
+
+![screenshoot uas-2024-2d-celvinalfiansyah](assets/tugas6.png)
+
+setelah memencet message akan diarahkan kesini, data yang berisi disini ada pada lib/assets/data/datamessage.json lalu kita akan beralih ke profil dengan memencet tombol profile yang ada dibawah
+
+![screenshoot uas-2024-2d-celvinalfiansyah](assets/tugas7.png)
+
+ini adalah tombol profile kita akan scroll kebawah
+
+![screenshoot uas-2024-2d-celvinalfiansyah](assets/tugas8.png)
+
+jika memencet tulisan "Log Out" maka anda akan dialihkan pada welcome screen yang pertama tadi.
+
