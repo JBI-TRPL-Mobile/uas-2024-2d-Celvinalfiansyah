@@ -106,3 +106,28 @@ const Text(
                 ),
               ),
               const SizedBox(height: 20),
+
+              Center(
+                child: OutlinedButton(
+                  onPressed: () {
+                    Navigator.pushReplacement(
+                      context,
+                      MaterialPageRoute(builder: (context) => const SignInScreen()),
+                    );
+                  },
+                  style: OutlinedButton.styleFrom(
+                    backgroundColor: Colors.grey[300],
+                    side: const BorderSide(color: Colors.black, width: 2),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.zero,
+                    ),
+                    padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 16),
+                  ),
+                  child: const Text(
+                    'Sign Up',
+                    style: TextStyle(color: Colors.black),
+                  ),
+                ),
+              ),
+
+              const SizedBox(height: 20),
