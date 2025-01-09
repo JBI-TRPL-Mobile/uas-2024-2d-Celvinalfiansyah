@@ -18,3 +18,17 @@ page kedua ialah sign up screen yang haruskan mengisi data agar bisa sign in
 ![screenshoot uas-2024-2d-celvinalfiansyah](assets/tugas9.png)
 
 gambaran setelah mengisi data
+
+# Screen 3
+![screenshoot uas-2024-2d-celvinalfiansyah](assets/tugas3.png)
+
+yang selanjutnya page ketiga ialah sign in, setelah mengisi data pada sign up harap mengisi data yang ada pada sign in
+
+![screenshoot uas-2024-2d-celvinalfiansyah](assets/tugas10.png)
+
+ini adalah gambar jika tidak ada data yang dimasukkan
+
+![screenshoot uas-2024-2d-celvinalfiansyah](assets/tugas4.png)
+
+pastikan data yang diisi sudah benar dan anda akan diarahkan ke dashboard screen
+
