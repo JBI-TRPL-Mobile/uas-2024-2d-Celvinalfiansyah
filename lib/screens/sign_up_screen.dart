@@ -131,3 +131,39 @@ const Text(
               ),
 
               const SizedBox(height: 20),
+
+                            Center(
+                child: const Text(
+                  'or sign up with',
+                  style: TextStyle(fontSize: 14),
+                ),
+              ),
+
+              const SizedBox(height: 10),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  GestureDetector(
+                    onTap: () {
+                    },
+                    child: Image.asset(
+                      'assets/google_logo.jpg',
+                      width: 40,
+                      height: 40,
+                    ),
+                  ),
+                  const SizedBox(width: 16),
+                  GestureDetector(
+                    onTap: () {
+                    },
+                    child: Image.asset(
+                      'assets/facebook_logo.jpg',
+                      width: 40,
+                      height: 40,
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 20),
+
+              
