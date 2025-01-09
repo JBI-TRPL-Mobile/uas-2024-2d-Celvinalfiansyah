@@ -42,6 +42,63 @@ class WelcomeScreen extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 40),
+
+             Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                // Tombol Sign In
+                OutlinedButton(
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => const SignInScreen()),
+                    );
+                  },
+                  style: OutlinedButton.styleFrom(
+                    backgroundColor: Colors.grey[300], 
+                    side: const BorderSide(color: Colors.black, width: 2), 
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.zero, 
+                    ),
+                    padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 16),
+                  ),
+                  child: const Text(
+                    'Sign In',
+                    style: TextStyle(color: Colors.black), 
+                  ),
+                ),
+                const SizedBox(width: 16),
+
+                OutlinedButton(
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => const SignUpScreen()),
+                    );
+                  },
+                  style: OutlinedButton.styleFrom(
+                    backgroundColor: Colors.grey[300], 
+                    side: const BorderSide(color: Colors.black, width: 2), 
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.zero, 
+                    ),
+                    padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 16),
+                  ),
+                  child: const Text(
+                    'Sign Up',
+                    style: TextStyle(color: Colors.black), 
+                  ),
+                ),
+              ],
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+
             
         
 
