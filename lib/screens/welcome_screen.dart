@@ -22,3 +22,15 @@ class WelcomeScreen extends StatelessWidget {
                  ),
             ),
             const SizedBox(height: 20),
+
+             const Text(
+              'Open Source Coding',
+              style: TextStyle(
+                fontSize: 28,
+                fontWeight: FontWeight.bold,
+                color: Colors.black, 
+              ),
+            ),
+            const SizedBox(height: 10),
+
+            
