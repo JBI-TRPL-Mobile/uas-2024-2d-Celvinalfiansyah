@@ -33,4 +33,15 @@ class WelcomeScreen extends StatelessWidget {
             ),
             const SizedBox(height: 10),
 
+             const Text(
+              'Selamat datang Kembali Celvin ke course open source coding silahkan pilih cara untuk Login',
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontSize: 16,
+                color: Color.fromARGB(255, 0, 0, 0),
+              ),
+            ),
+            const SizedBox(height: 40),
             
+        
+
