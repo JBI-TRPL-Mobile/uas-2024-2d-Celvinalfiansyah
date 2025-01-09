@@ -4,7 +4,7 @@ import 'package:flutter/services.dart';
 import 'dashboard_screen.dart';
 import 'sign_up_screen.dart';
 
-lass SignInScreen extends StatefulWidget {
+class SignInScreen extends StatefulWidget {
   const SignInScreen({Key? key}) : super(key: key);
 
   @override
@@ -16,7 +16,7 @@ class _SignInScreenState extends State<SignInScreen> {
   final TextEditingController _passwordController = TextEditingController();
   late Future<List<dynamic>> _users;
 
-   @override
+  @override
   void initState() {
     super.initState();
     _users = _loadUsers();
@@ -43,7 +43,7 @@ class _SignInScreenState extends State<SignInScreen> {
         orElse: () => null,
       );
 
-       if (user != null) {
+      if (user != null) {
         Navigator.pushReplacement(
           context,
           MaterialPageRoute(
@@ -58,7 +58,7 @@ class _SignInScreenState extends State<SignInScreen> {
     }
   }
 
-   void _showMessage(String message) {
+  void _showMessage(String message) {
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(content: Text(message)),
     );
@@ -117,6 +117,7 @@ class _SignInScreenState extends State<SignInScreen> {
               alignment: Alignment.centerRight,
               child: TextButton(
                 onPressed: () {
+
                 },
                 child: const Text(
                   'Forgot Password?',
@@ -152,6 +153,7 @@ class _SignInScreenState extends State<SignInScreen> {
               children: [
                 GestureDetector(
                   onTap: () {
+
                   },
                   child: Image.asset(
                     'assets/google_logo.jpg',
@@ -162,6 +164,7 @@ class _SignInScreenState extends State<SignInScreen> {
                 const SizedBox(width: 16),
                 GestureDetector(
                   onTap: () {
+     
                   },
                   child: Image.asset(
                     'assets/facebook_logo.jpg',
