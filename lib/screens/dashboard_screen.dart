@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'profile_screen.dart';
-import 'messages_screen.dart';
 
 class DashboardScreen extends StatefulWidget {
   const DashboardScreen({Key? key}) : super(key: key);
@@ -12,11 +10,9 @@ class DashboardScreen extends StatefulWidget {
 class _DashboardScreenState extends State<DashboardScreen> {
   int _selectedIndex = 0;
 
-  // Daftar screen yang akan ditampilkan
+  
   final List<Widget> _screens = [
-    const DashboardScreenContent(), // Konten Dashboard
-    const MessagesScreen(),         // Halaman Pesan
-    const ProfileScreen(),          // Halaman Profil
+    const DashboardScreenContent(),         
   ];
 
   void _onItemTapped(int index) {
@@ -36,7 +32,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
           style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
         ),
       ),
-      body: _screens[_selectedIndex],  // Tampilkan halaman berdasarkan index
+      body: _screens[_selectedIndex],  
 
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _selectedIndex,
@@ -63,7 +59,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
   }
 }
 
-// Konten untuk DashboardScreen
+
 class DashboardScreenContent extends StatelessWidget {
   const DashboardScreenContent({Key? key}) : super(key: key);
 
@@ -176,7 +172,7 @@ class DashboardScreenContent extends StatelessWidget {
     );
   }
 
-  // Widget untuk tombol kategori
+ 
   Widget categoryButton(String title) {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
@@ -191,7 +187,7 @@ class DashboardScreenContent extends StatelessWidget {
     );
   }
 
-  // Widget untuk menampilkan gambar kursus
+ 
   Widget courseImage(String imagePath) {
     return Container(
       width: 80,
