@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'profile_screen.dart';
+import 'messages_screen.dart';
 
 class DashboardScreen extends StatefulWidget {
   const DashboardScreen({Key? key}) : super(key: key);
@@ -12,7 +14,9 @@ class _DashboardScreenState extends State<DashboardScreen> {
 
   
   final List<Widget> _screens = [
-    const DashboardScreenContent(),         
+    const DashboardScreenContent(), 
+    const MessagesScreen(),         
+    const ProfileScreen(),          
   ];
 
   void _onItemTapped(int index) {
