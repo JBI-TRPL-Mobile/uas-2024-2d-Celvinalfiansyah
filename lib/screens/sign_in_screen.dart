@@ -41,3 +41,18 @@ class _SignInScreenState extends State<SignInScreen> {
         (u) => u['email'] == email && u['password'] == password,
         orElse: () => null,
       );
+
+       if (user != null) {
+        Navigator.pushReplacement(
+          context,
+          MaterialPageRoute(
+            builder: (context) => const DashboardScreen(),
+          ),
+        );
+      } else {
+        _showMessage('Invalid email or password.');
+      }
+    } catch (e) {
+      _showMessage('An error occurred. Please try again.');
+    }
+  }
