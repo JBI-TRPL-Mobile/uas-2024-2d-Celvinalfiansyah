@@ -1,0 +1,66 @@
+[
+    {
+      "id": 1,
+      "name": "Ethan",
+      "message": "Vin Project kemarin gimana?",
+      "image": "assets/user1.jpg",
+      "timestamp": "2025-01-08T14:30:00"
+    },
+    {
+      "id": 2,
+      "name": "Lucas",
+      "message": "Jangan lupa meet up besok",
+      "image": "assets/user2.jpg",
+      "timestamp": "2025-01-08T15:00:00"
+    },
+    {
+      "id": 3,
+      "name": "Jane",
+      "message": "Yauda lanjut besok",
+      "image": "assets/user3.jpg",
+      "timestamp": "2025-01-08T15:30:00"
+    },
+    {
+      "id": 4,
+      "name": "Davis",
+      "message": "Vin kata lucas besok meet up",
+      "image": "assets/user4.jpg",
+      "timestamp": "2025-01-08T16:00:00"
+    },
+    {
+      "id": 5,
+      "name": "Emily",
+      "message": "Eh presentasimu tadi bagus",
+      "image": "assets/user5.jpg",
+      "timestamp": "2025-01-08T16:30:00"
+    },
+    {
+      "id": 6,
+      "name": "Wilson",
+      "message": "Bentar abisini bahas di call aja",
+      "image": "assets/user6.jpg",
+      "timestamp": "2025-01-08T17:00:00"
+    },
+    {
+      "id": 7,
+      "name": "Sophia",
+      "message": "Bisa liat laporanmu ga vin?",
+      "image": "assets/user7.jpg",
+      "timestamp": "2025-01-08T17:30:00"
+    },
+    {
+      "id": 8,
+      "name": "Taylor",
+      "message": "Woii ketemu besok",
+      "image": "assets/user8.jpg",
+      "timestamp": "2025-01-08T18:00:00"
+    },
+    {
+      "id": 9,
+      "name": "James",
+      "message": "Vin ini hp lu satunya ketinggalan di gw",
+      "image": "assets/user9.jpg",
+      "timestamp": "2025-01-08T18:30:00"
+    }
+  ]
+  
